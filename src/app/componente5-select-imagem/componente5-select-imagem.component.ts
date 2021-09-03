@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class Componente5SelectImagemComponent implements OnInit {
 
   value: number = 0;
-  imagens = ['assets/gato.jpg','assets/pato.jpg','assets/sapo.jpg'];
+  imagens = ['assets/gato.jpg','assets/pato.jpg','assets/sapo.jpg','assets/capivara.jpg','assets/hipopotomo.jpg','assets/rato.jpg','assets/tamandua.jpg'];
   constructor() { }
 
   ngOnInit(): void {

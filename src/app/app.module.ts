@@ -11,6 +11,7 @@ import { Componente4Component } from './componente4/componente4.component';
 import { FormsModule } from '@angular/forms';
 import { Componente6NgIfComponent } from './componente6-ng-if/componente6-ng-if.component';
 import { Componente7IfVideoComponent } from './componente7-if-video/componente7-if-video.component';
+import { Componente8NgForComponent } from './componente8-ng-for/componente8-ng-for.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { Componente7IfVideoComponent } from './componente7-if-video/componente7-
     Componente4Component,
     Componente5SelectImagemComponent,
     Componente6NgIfComponent,
-    Componente7IfVideoComponent
+    Componente7IfVideoComponent,
+    Componente8NgForComponent
   ],
   imports: [
     BrowserModule,

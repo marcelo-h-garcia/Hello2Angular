@@ -1,8 +1,7 @@
 <img [src]="imagens[value]"/>
 <select [(ngModel)]="value">
-<option value="0">Imagem 1</option>
-<option value="1">Imagem 2</option>
-<option value="2">Imagem 3</option>
+<option *ngFor="let imagem of imagens; let i = index" [value]="i">Imagem {{i + 1}}</option>
+
 </select>
 
 <p>Valor selecionado: {{value}}</p>
